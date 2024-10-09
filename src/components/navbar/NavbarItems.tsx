@@ -4,7 +4,7 @@ import { NavbarItemProps } from '@/types/type';
 
 const NavbarItems: React.FC<NavbarItemProps> = ({ text, href }: NavbarItemProps) => {
   return (
-    <div className="navbar-item">
+    <div className="navbar-item bg-white p-4 rounded-3xl">
       <Link href={href}>
         <span className="relative group">
           {text}
